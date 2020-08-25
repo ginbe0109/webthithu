@@ -15,17 +15,19 @@
 	href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 <!-- Custom styles for this template -->
-<link href="<c:url value='template/client/css/blog-home.css' />"
+<link href="<c:url value='template/client/css/main.css' />"
 	type="text/css" rel="stylesheet">
+<link rel="stylesheet"
+	href="https://cdn.jsdelivr.net/gh/konpa/devicon@master/devicon.min.css">
 
 </head>
 <body id="">
 
-<%@ include file="/WEB-INF/views/client/header.jsp" %>
+	<%@ include file="/WEB-INF/views/client/header.jsp"%>
 
 	<dec:body />
-	
-<%@ include file="/WEB-INF/views/client/footer.jsp" %>
+
+	<%@ include file="/WEB-INF/views/client/footer.jsp"%>
 
 	<script
 		src="<c:url value='/template/client/vendor/jquery/jquery.min.js'/> "></script>

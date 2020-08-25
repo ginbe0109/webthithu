@@ -15,6 +15,14 @@ public class HomeController {
 	      ModelAndView mav = new ModelAndView("client/home");
 	      return mav;
 	   }
+	
+
+	@RequestMapping(value = "/tac-gia", method = RequestMethod.GET)
+	   public ModelAndView tacgiaPage() {
+	      ModelAndView mav = new ModelAndView("client/tacgia");
+	      return mav;
+	   }
 	  
+	
 	   
 }
